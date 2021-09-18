@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Senior software Engineer @ Klarna",
+        "desc": "Worked as a Software Engineer at Klarna in Stockholm 2018-2021.",
+        "categories": [
+            "work"
+        ]
+    },
+    {
+        "title": "Software developer @ IMINT",
+        "desc": "Worked as a software developer at Imint Image Intelligence AB.",
+        "categories": [
+            "work"
+        ]
+    },
+    {
+        "title": "Verklighetens Kvadratrötter",
+        "desc": "Wrote a book on the use of mathematics (in Swedish)",
+        "link": "",
+        "categories": [
+            "publications"
+        ]
+    },
+    {
+        "title": "En Summa av Ögonblick",
+        "desc": "Wrote a new on mathematics history (in Swedish)",
+        "link": "",
+        "categories": [
+            "publications"
+        ]
+    },
+    {
+        "title": "USER INTERFACE AND METHOD FOR A ZOOM FUNCTION",
+        "desc": "Party to a software patent developed during my time at IMINT",
+        "link": "",
+        "categories": [
+            "patents"
+        ]
+    },
+    {
+        "title": "Mathematics Stack exchange",
+        "desc": "Active contributor, near-moderator",
+        "link": "",
+        "categories": [
+            "other"
+        ]
+    },
+    {
+        "title": "Master thesis",
+        "desc": "High Performance Computing aspects of Single Particle Machine Learning",
+        "link": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-260036",
+        "categories": [
+            "academia",
+            "publications"
+        ]
+    }
+]
