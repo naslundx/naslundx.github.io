@@ -3,18 +3,22 @@
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <h1>Marcus Näslund</h1>
-    <h2>Software engineer, Mathematician, Educator, Writer</h2>
-
+    <header>
+        <h1>Marcus Näslund</h1>
+        <h2>Software engineer, Mathematician, Educator, Writer</h2>
+    </header>
+    <hr>
     <div class="filter">
-        <input type="checkbox" name="other" id="other" onchange="update()" checked="true"><label for="other">other</label>
-<input type="checkbox" name="work" id="work" onchange="update()" checked="true"><label for="work">work</label>
-<input type="checkbox" name="publications" id="publications" onchange="update()" checked="true"><label for="publications">publications</label>
-<input type="checkbox" name="academia" id="academia" onchange="update()" checked="true"><label for="academia">academia</label>
-<input type="checkbox" name="patents" id="patents" onchange="update()" checked="true"><label for="patents">patents</label>
+<div class="item">    <input type="checkbox" name="academia" id="academia" onchange="update()" checked="true">    <label for="academia">academia</label></div>
+<div class="item">    <input type="checkbox" name="patents" id="patents" onchange="update()" checked="true">    <label for="patents">patents</label></div>
+<div class="item">    <input type="checkbox" name="publications" id="publications" onchange="update()" checked="true">    <label for="publications">publications</label></div>
+<div class="item">    <input type="checkbox" name="work" id="work" onchange="update()" checked="true">    <label for="work">work</label></div>
+<div class="item">    <input type="checkbox" name="nonprofit" id="nonprofit" onchange="update()" checked="true">    <label for="nonprofit">nonprofit</label></div>
+<div class="item">    <input type="checkbox" name="other" id="other" onchange="update()" checked="true">    <label for="other">other</label></div>
     </div>
+    <hr>
     <div class="container">
-        <div class="item work">
+<div class="item work">
     <b>Senior software Engineer @ Klarna</b>
     <p>Worked as a Software Engineer at Klarna in Stockholm 2018-2021.</p>
 </div>
@@ -47,8 +51,18 @@
     <p>High Performance Computing aspects of Single Particle Machine Learning</p>
     <a href="http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-260036">Read more</a>
 </div>
+<div class="item work nonprofit">
+    <b>Mattecentrum</b>
+    <p>Volunteer, project manager, board member</p>
+    <a href="https://www.mattecentrum.se">Read more</a>
+</div>
 
     </div>
+
+    <footer>
+        <hr>
+        <p>Marcus Näslund, 2021</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>

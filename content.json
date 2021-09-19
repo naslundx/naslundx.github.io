@@ -53,5 +53,14 @@
             "academia",
             "publications"
         ]
+    },
+    {
+        "title": "Mattecentrum",
+        "desc": "Volunteer, project manager, board member",
+        "link": "https://www.mattecentrum.se",
+        "categories": [
+            "work",
+            "nonprofit"
+        ]
     }
 ]

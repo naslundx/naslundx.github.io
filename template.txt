@@ -3,15 +3,23 @@
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <h1>Marcus Näslund</h1>
-    <h2>Software engineer, Mathematician, Educator, Writer</h2>
-
+    <header>
+        <h1>Marcus Näslund</h1>
+        <h2>Software engineer, Mathematician, Educator, Writer</h2>
+    </header>
+    <hr>
     <div class="filter">
-        %%%CHECKBOXES%%%
+%%%CHECKBOXES%%%
     </div>
+    <hr>
     <div class="container">
-        %%%ITEMS%%%
+%%%ITEMS%%%
     </div>
+
+    <footer>
+        <hr>
+        <p>Marcus Näslund, 2021</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>

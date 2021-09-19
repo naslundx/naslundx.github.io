@@ -22,8 +22,10 @@ for item in content:
                   '</div>\n'
 
 category_html = "\n".join([
-    f'<input type="checkbox" name="{c.lower()}" id="{c.lower()}" onchange="update()" checked="true">' + \
-    f'<label for="{c.lower()}">{c}</label>'
+    f'<div class="item">' + \
+    f'    <input type="checkbox" name="{c.lower()}" id="{c.lower()}" onchange="update()" checked="true">' + \
+    f'    <label for="{c.lower()}">{c}</label>' + \
+    f'</div>'
     for c in categories
 ])
 
