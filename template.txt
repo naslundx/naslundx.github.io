@@ -1,11 +1,13 @@
 <html>
 <head>
+    <title>%%%NAME%%%: CV</title>
     <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <h1>Marcus Näslund</h1>
-        <h2>Software engineer, Mathematician, Educator, Writer</h2>
+        <h1>%%%NAME%%%</h1>
+        <h2>%%%TITLE%%%</h2>
     </header>
     <hr>
     <div class="filter">
@@ -18,7 +20,10 @@
 
     <footer>
         <hr>
-        <p>Marcus Näslund, 2021</p>
+        <div class="socialmedia">
+            <a href="%%%LINKEDIN%%%" class="fa fa-linkedin"></a>
+            <a href="%%%TWITTER%%%" class="fa fa-twitter"></a>
+        </div>
     </footer>
 
     <script src="script.js"></script>

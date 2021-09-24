@@ -1,66 +1,131 @@
-[
-    {
-        "title": "Senior software Engineer @ Klarna",
-        "desc": "Worked as a Software Engineer at Klarna in Stockholm 2018-2021.",
-        "categories": [
-            "work"
-        ]
+{
+    "name": "Marcus Näslund",
+    "title": "Software engineer, Mathematician, Educator, Writer",
+    "theme": "default",
+    "socialmedia": {
+        "linkedin": "https://linkedin.com/in/naslundx",
+        "twitter": "https://twitter.com/kvadratrot"
     },
-    {
-        "title": "Software developer @ IMINT",
-        "desc": "Worked as a software developer at Imint Image Intelligence AB.",
-        "categories": [
-            "work"
-        ]
-    },
-    {
-        "title": "Verklighetens Kvadratrötter",
-        "desc": "Wrote a book on the use of mathematics (in Swedish)",
-        "link": "",
-        "categories": [
-            "publications"
-        ]
-    },
-    {
-        "title": "En Summa av Ögonblick",
-        "desc": "Wrote a new on mathematics history (in Swedish)",
-        "link": "",
-        "categories": [
-            "publications"
-        ]
-    },
-    {
-        "title": "USER INTERFACE AND METHOD FOR A ZOOM FUNCTION",
-        "desc": "Party to a software patent developed during my time at IMINT",
-        "link": "",
-        "categories": [
-            "patents"
-        ]
-    },
-    {
-        "title": "Mathematics Stack exchange",
-        "desc": "Active contributor, near-moderator",
-        "link": "",
-        "categories": [
-            "other"
-        ]
-    },
-    {
-        "title": "Master thesis",
-        "desc": "High Performance Computing aspects of Single Particle Machine Learning",
-        "link": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-260036",
-        "categories": [
-            "academia",
-            "publications"
-        ]
-    },
-    {
-        "title": "Mattecentrum",
-        "desc": "Volunteer, project manager, board member",
-        "link": "https://www.mattecentrum.se",
-        "categories": [
-            "work",
-            "nonprofit"
-        ]
-    }
-]
+    "content": [{
+            "title": "Senior software Engineer @ Klarna",
+            "desc": "Worked as a Software Engineer at Klarna in Stockholm 2018-2021.",
+            "categories": [
+                "work"
+            ]
+        },
+        {
+            "title": "Software developer @ IMINT",
+            "desc": "Worked as a software developer at Imint Image Intelligence AB.",
+            "categories": [
+                "work"
+            ]
+        },
+        {
+            "title": "Verklighetens Kvadratrötter",
+            "desc": "Wrote a book on the use of mathematics (in Swedish)",
+            "link": "",
+            "categories": [
+                "publications"
+            ]
+        },
+        {
+            "title": "En Summa av Ögonblick",
+            "desc": "Wrote a new on mathematics history (in Swedish)",
+            "link": "",
+            "categories": [
+                "publications"
+            ]
+        },
+        {
+            "title": "USER INTERFACE AND METHOD FOR A ZOOM FUNCTION",
+            "desc": "Party to a software patent developed during my time at IMINT",
+            "link": "",
+            "categories": [
+                "patents"
+            ]
+        },
+        {
+            "title": "Mathematics Stack exchange",
+            "desc": "Active contributor, near-moderator",
+            "link": "",
+            "categories": [
+                "other"
+            ]
+        },
+        {
+            "title": "Master thesis",
+            "desc": "High Performance Computing aspects of Single Particle Machine Learning",
+            "link": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-260036",
+            "categories": [
+                "academia",
+                "publications"
+            ]
+        },
+        {
+            "title": "Mattecentrum",
+            "desc": "Volunteer, project manager, board member",
+            "link": "https://www.mattecentrum.se",
+            "categories": [
+                "work",
+                "nonprofit"
+            ]
+        },
+        {
+            "title": "LinkedIn profile",
+            "desc": "My second CV",
+            "link": "https://www.linkedin.com/in/naslundx",
+            "categories": [
+                "socialmedia"
+            ]
+        },
+        {
+            "title": "Twitter profile",
+            "desc": "Twitter profile (for my book)",
+            "link": "https://www.twitter.com/kvadratrot",
+            "categories": [
+                "socialmedia",
+                "publications"
+            ]
+        },
+        {
+            "title": "Being a data-driven slacker",
+            "desc": "Lightning talk given at KonferenSE 2019 in Berlin",
+            "link": "https://www.youtube.com/watch?v=r-HxnW6Z5Sk",
+            "categories": [
+                "conferences"
+            ]
+        },
+        {
+            "title": "Machine Learning to auto-navigate websites",
+            "desc": "Talk given at PyCon SE 2020 in Stockholm (remote)",
+            "link": "https://www.youtube.com/watch?v=X0414BC6Q2I",
+            "categories": [
+                "conferences"
+            ]
+        },
+        {
+            "title": "Python++: Here's how, and why not",
+            "desc": "Talk I will be giving at PyCon SE 2021 in Stockholm (remote)",
+            "categories": [
+                "conferences"
+            ]
+        },
+        {
+            "title": "Web Traversal Library",
+            "desc": "Open-source library for making web scraping and web automation scripting much easier.",
+            "link": "https://pypi.org/project/webtraversallibrary/",
+            "categories": [
+                "opensource",
+                "publications"
+            ]
+        },
+        {
+            "title": "Mattemorden",
+            "desc": "TV crime show about mathematics, broadcast on SVT and YLE in 2015.",
+            "link": "https://www.imdb.com/title/tt4298606/",
+            "categories": [
+                "publications"
+            ]
+        }
+    ]
+}

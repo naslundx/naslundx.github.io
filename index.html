@@ -1,6 +1,8 @@
 <html>
 <head>
+    <title>Marcus Näslund: CV</title>
     <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -9,12 +11,15 @@
     </header>
     <hr>
     <div class="filter">
-<div class="item">    <input type="checkbox" name="academia" id="academia" onchange="update()" checked="true">    <label for="academia">academia</label></div>
-<div class="item">    <input type="checkbox" name="patents" id="patents" onchange="update()" checked="true">    <label for="patents">patents</label></div>
 <div class="item">    <input type="checkbox" name="publications" id="publications" onchange="update()" checked="true">    <label for="publications">publications</label></div>
+<div class="item">    <input type="checkbox" name="academia" id="academia" onchange="update()" checked="true">    <label for="academia">academia</label></div>
+<div class="item">    <input type="checkbox" name="conferences" id="conferences" onchange="update()" checked="true">    <label for="conferences">conferences</label></div>
+<div class="item">    <input type="checkbox" name="opensource" id="opensource" onchange="update()" checked="true">    <label for="opensource">opensource</label></div>
+<div class="item">    <input type="checkbox" name="patents" id="patents" onchange="update()" checked="true">    <label for="patents">patents</label></div>
+<div class="item">    <input type="checkbox" name="socialmedia" id="socialmedia" onchange="update()" checked="true">    <label for="socialmedia">socialmedia</label></div>
+<div class="item">    <input type="checkbox" name="other" id="other" onchange="update()" checked="true">    <label for="other">other</label></div>
 <div class="item">    <input type="checkbox" name="work" id="work" onchange="update()" checked="true">    <label for="work">work</label></div>
 <div class="item">    <input type="checkbox" name="nonprofit" id="nonprofit" onchange="update()" checked="true">    <label for="nonprofit">nonprofit</label></div>
-<div class="item">    <input type="checkbox" name="other" id="other" onchange="update()" checked="true">    <label for="other">other</label></div>
     </div>
     <hr>
     <div class="container">
@@ -56,12 +61,49 @@
     <p>Volunteer, project manager, board member</p>
     <a href="https://www.mattecentrum.se">Read more</a>
 </div>
+<div class="item socialmedia">
+    <b>LinkedIn profile</b>
+    <p>My second CV</p>
+    <a href="https://www.linkedin.com/in/naslundx">Read more</a>
+</div>
+<div class="item socialmedia publications">
+    <b>Twitter profile</b>
+    <p>Twitter profile (for my book)</p>
+    <a href="https://www.twitter.com/kvadratrot">Read more</a>
+</div>
+<div class="item conferences">
+    <b>Being a data-driven slacker</b>
+    <p>Lightning talk given at KonferenSE 2019 in Berlin</p>
+    <a href="https://www.youtube.com/watch?v=r-HxnW6Z5Sk">Read more</a>
+</div>
+<div class="item conferences">
+    <b>Machine Learning to auto-navigate websites</b>
+    <p>Talk given at PyCon SE 2020 in Stockholm (remote)</p>
+    <a href="https://www.youtube.com/watch?v=X0414BC6Q2I">Read more</a>
+</div>
+<div class="item conferences">
+    <b>Python++: Here's how, and why not</b>
+    <p>Talk I will be giving at PyCon SE 2021 in Stockholm (remote)</p>
+</div>
+<div class="item opensource publications">
+    <b>Web Traversal Library</b>
+    <p>Open-source library for making web scraping and web automation scripting much easier.</p>
+    <a href="https://pypi.org/project/webtraversallibrary/">Read more</a>
+</div>
+<div class="item publications">
+    <b>Mattemorden</b>
+    <p>TV crime show about mathematics, broadcast on SVT and YLE in 2015.</p>
+    <a href="https://www.imdb.com/title/tt4298606/">Read more</a>
+</div>
 
     </div>
 
     <footer>
         <hr>
-        <p>Marcus Näslund, 2021</p>
+        <div class="socialmedia">
+            <a href="https://linkedin.com/in/naslundx" class="fa fa-linkedin"></a>
+            <a href="https://twitter.com/kvadratrot" class="fa fa-twitter"></a>
+        </div>
     </footer>
 
     <script src="script.js"></script>

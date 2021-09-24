@@ -8,11 +8,20 @@ with open("template.txt") as f:
 with open("content.json") as f:
     content = json.load(f)
 
+# Name
+template = template.replace(r"%%%NAME%%%", content["name"])
+template = template.replace(r"%%%TITLE%%%", content["title"])
+
+# Social media
+template = template.replace(r"%%%LINKEDIN%%%", content["socialmedia"]["linkedin"])
+template = template.replace(r"%%%TWITTER%%%", content["socialmedia"]["twitter"])
+
+# Content
 categories = set()
 
 items_html = ""
 
-for item in content:
+for item in content["content"]:
     categories = categories.union(set([c.lower() for c in item["categories"]]))
     
     items_html += '<div class="item ' + ' '.join(item["categories"]) + '">\n' + \
