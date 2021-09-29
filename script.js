@@ -1,3 +1,11 @@
+function allx() {
+    let self = document.querySelector("#all");
+    for (let cb of document.querySelectorAll(".filter input")) {
+        cb.checked = self.checked;
+    }
+    update();
+}
+
 function update() {
     let selected = new Set()
     for (let cb of document.querySelectorAll(".filter input:checked")) {

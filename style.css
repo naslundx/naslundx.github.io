@@ -58,6 +58,11 @@ hr {
     min-width: fit-content;
     font-size: larger;
     transition: background-color 0.5s ease;
+    padding: 0 15%;
+}
+
+#all+label {
+    font-weight: bolder;
 }
 
 .filter .item:hover {
@@ -81,6 +86,12 @@ hr {
     border-radius: 5px;
     padding: 10px;
     transition: background-color 0.5s ease;
+}
+
+.container .item .categories {
+    font-size: smaller;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 1000px) {

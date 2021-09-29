@@ -8,6 +8,7 @@
     },
     "content": [{
             "title": "Senior software Engineer @ Klarna",
+            "date": "2018-2021",
             "desc": "Worked as a Software Engineer at Klarna in Stockholm 2018-2021.",
             "categories": [
                 "work"
@@ -15,6 +16,7 @@
         },
         {
             "title": "Software developer @ IMINT",
+            "date": "2015-2018",
             "desc": "Worked as a software developer at Imint Image Intelligence AB.",
             "categories": [
                 "work"
@@ -39,7 +41,47 @@
         {
             "title": "USER INTERFACE AND METHOD FOR A ZOOM FUNCTION",
             "desc": "Party to a software patent developed during my time at IMINT",
-            "link": "",
+            "link": "https://patents.justia.com/patent/20200329193",
+            "categories": [
+                "patents"
+            ]
+        },
+        {
+            "title": "DYNAMIC LOCATION AND EXTRACTION OF A USER INTERFACE ELEMENT STATE IN A USER INTERFACE THAT IS DEPENDENT ON AN EVENT OCCURRENCE IN A DIFFERENT USER INTERFACE",
+            "desc": "One of several patents that came out of work I did while at Klarna.",
+            "link": "https://patents.justia.com/patent/20210141497",
+            "categories": [
+                "patents"
+            ]
+        },
+        {
+            "title": "UNSUPERVISED LOCATION AND EXTRACTION OF QUANTITY AND UNIT VALUE ELEMENTS IN A USER INTERFACE",
+            "desc": "One of several patents that came out of work I did while at Klarna.",
+            "link": "https://patents.justia.com/patent/20210141498",
+            "categories": [
+                "patents"
+            ]
+        },
+        {
+            "title": "LOCATION AND EXTRACTION OF ITEM ELEMENTS IN A USER INTERFACE",
+            "desc": "One of several patents that came out of work I did while at Klarna.",
+            "link": "https://patents.justia.com/patent/20210141652",
+            "categories": [
+                "patents"
+            ]
+        },
+        {
+            "title": "UNSUPERVISED LOCATION AND EXTRACTION OF OPTION ELEMENTS IN A USER INTERFACE",
+            "desc": "One of several patents that came out of work I did while at Klarna.",
+            "link": "https://patents.justia.com/patent/20210141619",
+            "categories": [
+                "patents"
+            ]
+        },
+        {
+            "title": "DYNAMIC IDENTIFICATION OF USER INTERFACE ELEMENTS THROUGH UNSUPERVISED EXPLORATION",
+            "desc": "One of several patents that came out of work I did while at Klarna.",
+            "link": "https://patents.justia.com/patent/20210141620",
             "categories": [
                 "patents"
             ]
@@ -62,12 +104,38 @@
             ]
         },
         {
+            "title": "Bachelor's thesis",
+            "desc": "The Hales-Jewett theorem and its application to further generalisations of m, n, k-games",
+            "link": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-202188",
+            "categories": [
+                "academia",
+                "publications"
+            ]
+        },
+        {
+            "title": "Research project",
+            "desc": "Using Parallella for Numerical Linear Algebra",
+            "link": "https://docplayer.net/14495615-Project-report-using-parallella-for-numerical-linear-algebra-marcus-naslund-jacob-mattsson-project-in-computational-science-january-2015.html",
+            "categories": [
+                "academia",
+                "publications"
+            ]
+        },
+        {
             "title": "Mattecentrum",
             "desc": "Volunteer, project manager, board member",
             "link": "https://www.mattecentrum.se",
             "categories": [
                 "work",
                 "nonprofit"
+            ]
+        },
+        {
+            "title": "Uppsala University",
+            "desc": "Teaching assistant, marketer",
+            "link": "https://www.uu.se",
+            "categories": [
+                "work"
             ]
         },
         {
@@ -83,8 +151,7 @@
             "desc": "Twitter profile (for my book)",
             "link": "https://www.twitter.com/kvadratrot",
             "categories": [
-                "socialmedia",
-                "publications"
+                "socialmedia"
             ]
         },
         {
@@ -115,8 +182,15 @@
             "desc": "Open-source library for making web scraping and web automation scripting much easier.",
             "link": "https://pypi.org/project/webtraversallibrary/",
             "categories": [
-                "opensource",
-                "publications"
+                "opensource"
+            ]
+        },
+        {
+            "title": "Github Account",
+            "desc": "My Github account",
+            "link": "https://github.com/naslundx",
+            "categories": [
+                "opensource"
             ]
         },
         {
