@@ -94,12 +94,12 @@ hr {
     margin-top: 0;
     padding: 0;
     margin-bottom: 8px;
-}
-
-.container .item .categories {
     font-size: smaller;
     text-align: center;
-    margin-bottom: 0;
+}
+
+.container .item[onclick] {
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -117,17 +117,13 @@ hr {
     }
 }
 
-.container .item:hover {
+.container .item[onclick]:hover {
     background-color: gainsboro;
 }
 
 .container .item a {
     text-decoration: none;
     font-weight: bold;
-}
-
-.container .item a:hover {
-    text-decoration: underline;
 }
 
 footer .socialmedia {

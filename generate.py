@@ -1,4 +1,5 @@
 import json
+import random
 
 
 def get_content(item):
@@ -9,13 +10,13 @@ def get_content(item):
     link = item.get("link")
 
     return '\n'.join([
-        f'<div class="item {categories}">',
+        f'<div class="item {categories}"' + ('onclick=\'window.location="{link}"\'>' if link else '>'),
          '    <p class="categories">' + ', '.join(item["categories"]) + '</p>',
         f'    <b>{title}</b>\n',
         f'    <i>{date}</i>\n' if date else "",
         f'    <p>{desc}</p>\n',
-        f'    <a href="{link}">Read more</a>\n' if link else "",
-        f'</div>\n'
+        f'    <p>Click to read more</p>\n' if link else "",
+         '</div>\n'
     ])
 
 
@@ -37,7 +38,7 @@ template = template.replace(r"%%%TWITTER%%%", content["socialmedia"]["twitter"])
 
 # Content
 categories = set()
-
+random.shuffle(content["content"])
 items_html = ""
 
 for item in content["content"]:
