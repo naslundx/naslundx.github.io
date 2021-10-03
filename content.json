@@ -24,6 +24,7 @@
         },
         {
             "title": "Verklighetens Kvadratrötter",
+            "date": "2012",
             "desc": "Wrote a book on the use of mathematics (in Swedish)",
             "link": "",
             "categories": [
@@ -32,6 +33,7 @@
         },
         {
             "title": "En Summa av Ögonblick",
+            "date": "2022",
             "desc": "Wrote a new on mathematics history (in Swedish)",
             "link": "",
             "categories": [
@@ -40,6 +42,7 @@
         },
         {
             "title": "USER INTERFACE AND METHOD FOR A ZOOM FUNCTION",
+            "date": "2020",
             "desc": "Party to a software patent developed during my time at IMINT",
             "link": "https://patents.justia.com/patent/20200329193",
             "categories": [
@@ -48,6 +51,7 @@
         },
         {
             "title": "DYNAMIC LOCATION AND EXTRACTION OF A USER INTERFACE ELEMENT STATE IN A USER INTERFACE THAT IS DEPENDENT ON AN EVENT OCCURRENCE IN A DIFFERENT USER INTERFACE",
+            "date": "2021",
             "desc": "One of several patents that came out of work I did while at Klarna.",
             "link": "https://patents.justia.com/patent/20210141497",
             "categories": [
@@ -56,6 +60,7 @@
         },
         {
             "title": "UNSUPERVISED LOCATION AND EXTRACTION OF QUANTITY AND UNIT VALUE ELEMENTS IN A USER INTERFACE",
+            "date": "2021",
             "desc": "One of several patents that came out of work I did while at Klarna.",
             "link": "https://patents.justia.com/patent/20210141498",
             "categories": [
@@ -64,6 +69,7 @@
         },
         {
             "title": "LOCATION AND EXTRACTION OF ITEM ELEMENTS IN A USER INTERFACE",
+            "date": "2021",
             "desc": "One of several patents that came out of work I did while at Klarna.",
             "link": "https://patents.justia.com/patent/20210141652",
             "categories": [
@@ -72,6 +78,7 @@
         },
         {
             "title": "UNSUPERVISED LOCATION AND EXTRACTION OF OPTION ELEMENTS IN A USER INTERFACE",
+            "date": "2021",
             "desc": "One of several patents that came out of work I did while at Klarna.",
             "link": "https://patents.justia.com/patent/20210141619",
             "categories": [
@@ -80,6 +87,7 @@
         },
         {
             "title": "DYNAMIC IDENTIFICATION OF USER INTERFACE ELEMENTS THROUGH UNSUPERVISED EXPLORATION",
+            "date": "2021",
             "desc": "One of several patents that came out of work I did while at Klarna.",
             "link": "https://patents.justia.com/patent/20210141620",
             "categories": [
@@ -96,6 +104,7 @@
         },
         {
             "title": "Master thesis",
+            "date": "2015",
             "desc": "High Performance Computing aspects of Single Particle Machine Learning",
             "link": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-260036",
             "categories": [
@@ -105,6 +114,7 @@
         },
         {
             "title": "Bachelor's thesis",
+            "date": "2013",
             "desc": "The Hales-Jewett theorem and its application to further generalisations of m, n, k-games",
             "link": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-202188",
             "categories": [
@@ -114,6 +124,7 @@
         },
         {
             "title": "Research project",
+            "date": "2014",
             "desc": "Using Parallella for Numerical Linear Algebra",
             "link": "https://docplayer.net/14495615-Project-report-using-parallella-for-numerical-linear-algebra-marcus-naslund-jacob-mattsson-project-in-computational-science-january-2015.html",
             "categories": [
@@ -123,6 +134,7 @@
         },
         {
             "title": "Mattecentrum",
+            "date": "2011-2021",
             "desc": "Volunteer, project manager, board member",
             "link": "https://www.mattecentrum.se",
             "categories": [
@@ -132,6 +144,7 @@
         },
         {
             "title": "Uppsala University",
+            "date": "2013-2015",
             "desc": "Teaching assistant, marketer",
             "link": "https://www.uu.se",
             "categories": [
@@ -156,6 +169,7 @@
         },
         {
             "title": "Being a data-driven slacker",
+            "date": "2019",
             "desc": "Lightning talk given at KonferenSE 2019 in Berlin",
             "link": "https://www.youtube.com/watch?v=r-HxnW6Z5Sk",
             "categories": [
@@ -164,6 +178,7 @@
         },
         {
             "title": "Machine Learning to auto-navigate websites",
+            "date": "2020",
             "desc": "Talk given at PyCon SE 2020 in Stockholm (remote)",
             "link": "https://www.youtube.com/watch?v=X0414BC6Q2I",
             "categories": [
@@ -172,6 +187,7 @@
         },
         {
             "title": "Python++: Here's how, and why not",
+            "date": "2021",
             "desc": "Talk I will be giving at PyCon SE 2021 in Stockholm (remote)",
             "categories": [
                 "conferences"
@@ -195,7 +211,8 @@
         },
         {
             "title": "Mattemorden",
-            "desc": "TV crime show about mathematics, broadcast on SVT and YLE in 2015.",
+            "date": "2015",
+            "desc": "TV crime show about mathematics, broadcast on SVT and YLE.",
             "link": "https://www.imdb.com/title/tt4298606/",
             "categories": [
                 "publications"

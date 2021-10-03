@@ -10,11 +10,11 @@ def get_content(item):
 
     return '\n'.join([
         f'<div class="item {categories}">',
+         '    <p class="categories">' + ', '.join(item["categories"]) + '</p>',
         f'    <b>{title}</b>\n',
         f'    <i>{date}</i>\n' if date else "",
         f'    <p>{desc}</p>\n',
         f'    <a href="{link}">Read more</a>\n' if link else "",
-         '    <p class="categories">' + ', '.join(item["categories"]) + '</p>',
         f'</div>\n'
     ])
 
@@ -45,7 +45,7 @@ for item in content["content"]:
     items_html += get_content(item)
 
 category_html = '<div class="item"><input type="checkbox" name="all" id="all" onchange="allx()" checked="true">' + \
-                '<label for="all">Välj alla/ingen</label></div>'
+                '<label for="all">Select all/none</label></div>'
 category_html += "\n".join([
     f'<div class="item">' + \
     f'    <input type="checkbox" name="{c.lower()}" id="{c.lower()}" onchange="update()" checked="true">' + \
