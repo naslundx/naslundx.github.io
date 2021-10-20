@@ -36,6 +36,7 @@
             "date": "2022",
             "desc": "Wrote a new on mathematics history (in Swedish)",
             "link": "https://ensummaavogonblick.se",
+            "prio": 2,
             "categories": [
                 "publications"
             ]
@@ -179,7 +180,7 @@
         {
             "title": "Machine Learning to auto-navigate websites",
             "date": "2020",
-            "desc": "Talk given at PyCon SE 2020 in Stockholm (remote)",
+            "desc": "Talk given at PyCon Sweden 2020 in Stockholm (online)",
             "link": "https://www.youtube.com/watch?v=X0414BC6Q2I",
             "categories": [
                 "conferences"
@@ -188,7 +189,9 @@
         {
             "title": "Python++: Here's how, and why not",
             "date": "2021",
-            "desc": "Talk I will be giving at PyCon SE 2021 in Stockholm (remote)",
+            "desc": "Talk given at PyCon Sweden 2021 in Stockholm (online)",
+            "link": "https://www.youtube.com/watch?v=Sp0tEGqFfN8",
+            "prio": 1,
             "categories": [
                 "conferences"
             ]

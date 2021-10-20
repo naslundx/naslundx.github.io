@@ -5,12 +5,13 @@ import random
 def get_content(item):
     categories = ' '.join(item["categories"])
     title = item["title"]
-    date = item.get("date")
+    date = item.get("date", "")
     desc = item["desc"]
-    link = item.get("link")
+    link = item.get("link", "")
+    order = item.get("prio", 999)
 
     return '\n'.join([
-        f'<div class="item {categories}"' + ('onclick=\'window.location="{link}"\'>' if link else '>'),
+        f'<div class="item {categories}" ' + f'style="order: {order};" ' + (f'onclick=\'window.location="{link}"\'>' if link else '>'),
          '    <p class="categories">' + ', '.join(item["categories"]) + '</p>',
         f'    <b>{title}</b>\n',
         f'    <i>{date}</i>\n' if date else "",
